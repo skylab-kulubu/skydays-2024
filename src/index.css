@@ -16,10 +16,6 @@ body {
   font-family: 'Urbanist', sans-serif;
 }
 
-section {
-  outline: red solid 1px;
-}
-
 #nav-gradient {
   background: rgb(12, 28, 53);
   background: linear-gradient(
