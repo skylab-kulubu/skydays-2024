@@ -5,7 +5,7 @@ const Landing = () => {
   return (
     <section
       id='0'
-      className='snap-start pt-32 md:pt-72 h-[100dvh] flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-12 md:gap-0 md:justify-between'
+      className='snap-start pt-32 md:pt-36 lg:pt-0 h-[100dvh] flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-12 md:gap-0 md:justify-between'
     >
       <div>
         <div className='pl-4 sm:pl-8 lg:pl-[5.5rem]'>

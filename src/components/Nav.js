@@ -101,9 +101,12 @@ const Nav = ({ setCurrentSection }) => {
           id='nav-gradient'
           className='flex justify-between outline-1 backdrop-blur-md outline outline-[#789eab] px-6 py-2 rounded-3xl items-center w-full'
         >
-          <a href='https://yildizskylab.com'>
-            <img className='h-10 md:h-16' src={logo} alt='SKYLAB' />
-          </a>
+          <img
+            onClick={() => setCurrentSection(0)}
+            className='h-10 md:h-16'
+            src={logo}
+            alt='SKYLAB'
+          />
           <div className='hidden md:flex gap-2 lg:gap-8 text-xl items-center'>
             <button
               onClick={() => setCurrentSection(0)}
