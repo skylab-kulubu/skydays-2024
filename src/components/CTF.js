@@ -5,48 +5,69 @@ import bronze from '../assets/bronze.png';
 
 const CTF = () => {
   return (
-    <section id='4' className='px-[10rem] pt-44'>
-      <h2 className='text-8xl font-semibold text-center'>SKYDAYS</h2>
-      <h2 className='text-6xl font-normal text-center'>CTF</h2>
-      <p className='text-5xl font-extralight mt-20'>
-        22 Mart cuma günü saat 19.00'da başlayıp, 23 mart cumartesi günü saat
-        19.00'da bitecektir.
-      </p>
-      <button className='bg-[#0075FF] hover:opacity-80 rounded-full mt-8 text-4xl font-semibold px-8 py-3'>
-        Kayıt Ol
-      </button>
-      <p className='text-4xl font-extralight mt-8'>
-        CTF sırasında küçük ödüllerin olacağı, bunların yanında ilk 3'e para
-        ödülü ve diğer katılımcılara ise hatıra ödüllerinin verileceği, toplam 6
-        kategori ve 18 sorudan oluşacak olan okulumuzda yapılmış ilk CTF
-        yarışması olacaktır.
-      </p>
+    <section id='4' className='pt-32 md:pt-44'>
+      <div className='px-8 sm:px-24 md:px-[10rem]'>
+        <h2 className='text-3xl sm:text-6xl lg:text-8xl font-semibold text-center'>
+          SKYDAYS
+        </h2>
+        <h2 className='text-2xl sm:text-4xl lg:text-6xl font-normal text-center'>
+          CTF
+        </h2>
+        <p className='text-xl sm:text-2xl lg:text-5xl font-extralight mt-20'>
+          22 Mart cuma günü saat 19.00'da başlayıp, 23 mart cumartesi günü saat
+          19.00'da bitecektir.
+        </p>
+        <button className='bg-[#0075FF] hover:opacity-80 rounded-full mt-6 sm:mt-8 text-2xl md:text-4xl font-semibold px-8 py-3'>
+          Kayıt Ol
+        </button>
+        <p className='text-xl sm:text-3xl lg:text-4xl font-extralight mt-6 sm:mt-8'>
+          CTF sırasında küçük ödüllerin olacağı, bunların yanında ilk 3'e para
+          ödülü ve diğer katılımcılara ise hatıra ödüllerinin verileceği, toplam
+          6 kategori ve 18 sorudan oluşacak olan okulumuzda yapılmış ilk CTF
+          yarışması olacaktır.
+        </p>
+      </div>
 
-      <div className='flex items-center justify-center gap-10 mt-24'>
+      <div className='flex items-center justify-center gap-6 mt-4 lg:mt-24'>
         <div>
-          <div className='flex h-40 gap-8'>
+          <div className='mb-16 sm:mb-0 flex h-24 lg:h-40 gap-8'>
             <img src={gold} alt='gold' />
             <div>
-              <h2 className='text-4xl font-extralight'>Birincilik Ödülü</h2>
-              <h1 className='text-8xl font-bold'>5.000$</h1>
+              <h2 className='text-2xl lg:text-4xl font-extralight'>
+                Birincilik Ödülü
+              </h2>
+              <h1 className='text-6xl lg:text-8xl font-bold'>5.000$</h1>
             </div>
           </div>
-          <div className='flex h-60'></div>
-          <div className='flex h-40 gap-8'>
+          <div className='block sm:hidden'>
+            <div className='flex h-24 lg:h-40 gap-8'>
+              <img src={silver} alt='gold' />
+              <div>
+                <h2 className='text-2xl lg:text-4xl font-extralight'>
+                  İkincilik Ödülü
+                </h2>
+                <h1 className='text-6xl lg:text-8xl font-bold'>5.000$</h1>
+              </div>
+            </div>
+          </div>
+          <div className='hidden sm:flex h-60'></div>
+          <div className='mt-16 sm:mt-0 flex h-24 lg:h-40 gap-8'>
             <img src={bronze} alt='gold' />
             <div>
-              <h2 className='text-4xl font-extralight'>Üçüncülük Ödülü</h2>
-              <h1 className='text-8xl font-bold'>5.000$</h1>
+              <h2 className='text-2xl lg:text-4xl font-extralight'>
+                Üçüncülük Ödülü
+              </h2>
+              <h1 className='text-6xl lg:text-8xl font-bold'>5.000$</h1>
             </div>
           </div>
         </div>
         <div className='relative flex items-center justify-center'>
-          <div className='absolute rounded-[50%] mb-96 h-16 aspect-square bg-white'></div>
-          <div className='absolute rounded-[50%] h-16 aspect-square bg-white'></div>
-          <div className='absolute rounded-[50%] mt-96 h-16 aspect-square bg-white'></div>
+          <div className='absolute rounded-[50%] mb-80 lg:mb-96 h-10 lg:h-16 aspect-square bg-white'></div>
+          <div className='absolute rounded-[50%] h-10 lg:h-16 aspect-square bg-white'></div>
+          <div className='absolute rounded-[50%] mt-80 lg:mt-96 h-10 lg:h-16 aspect-square bg-white'></div>
           <svg
+            className='w-[0.6rem] lg:w-3 h-[32rem] lg:h-auto'
             xmlns='http://www.w3.org/2000/svg'
-            width='14'
             height='792'
             viewBox='0 0 14 792'
             fill='none'
@@ -83,19 +104,21 @@ const CTF = () => {
             </defs>
           </svg>
         </div>
-        <div>
-          <div className='flex h-40 gap-8'>
+        <div className='hidden sm:block'>
+          <div className='flex h-24 lg:h-40 gap-8'>
             <img src={silver} alt='gold' />
             <div>
-              <h2 className='text-4xl font-extralight'>İkincilik Ödülü</h2>
-              <h1 className='text-8xl font-bold'>5.000$</h1>
+              <h2 className='text-2xl lg:text-4xl font-extralight'>
+                İkincilik Ödülü
+              </h2>
+              <h1 className='text-6xl lg:text-8xl font-bold'>5.000$</h1>
             </div>
           </div>
         </div>
       </div>
 
       <div className='flex justify-center'>
-        <button className='bg-[#0075FF] hover:opacity-80 rounded-full mt-8 text-4xl font-semibold px-8 py-3'>
+        <button className='bg-[#0075FF] hover:opacity-80 rounded-full mt-4 lg:mt-8 text-2xl lg:text-4xl font-semibold px-8 py-3'>
           Kayıt Ol
         </button>
       </div>
