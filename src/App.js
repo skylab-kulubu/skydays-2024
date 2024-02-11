@@ -24,7 +24,7 @@ function App() {
     <div className='App h-[100dvh] relative snap-proximity snap-y overflow-y-scroll overflow-x-hidden'>
       <div
         style={{ backgroundImage: `url('${background}')` }}
-        className='absolute h-[580dvh] -z-10 w-screen bg-cover '
+        className='absolute h-[600dvh] -z-10 w-screen bg-cover '
       ></div>
       <Nav setCurrentSection={setCurrentSection} />
       <Landing />
