@@ -111,7 +111,7 @@ const Nav = ({ setCurrentSection }) => {
         >
           <img
             onClick={() => setCurrentSection(0)}
-            className='h-10 md:h-16'
+            className='h-10 md:h-16 cursor-pointer'
             src={logo}
             alt='SKYLAB'
           />
