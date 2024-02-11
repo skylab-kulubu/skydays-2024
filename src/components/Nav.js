@@ -25,7 +25,7 @@ const Nav = ({ setCurrentSection }) => {
         id='nav-gradient'
         className={`${
           menuOpened ? null : '-translate-y-full'
-        } bg-red-400 flex flex-col gap-6 border-b border-[#789eab] items-center justify-center w-screen h-96 z-50 transition-transform duration-300 fixed`}
+        } bg-red-400 flex flex-col gap-6 border-b border-[#789eab] items-center justify-center w-screen h-[30rem] z-50 transition-transform duration-300 fixed`}
       >
         <button
           onClick={() => {
@@ -71,6 +71,14 @@ const Nav = ({ setCurrentSection }) => {
           className='p-1 hover:opacity-80'
         >
           CTF
+        </button>
+        <button
+          onClick={() =>
+            (window.location.href = 'https://forms.office.com/r/ZhxGnvtTHd')
+          }
+          className='bg-[#0075FF] hover:opacity-80 rounded-full px-4 py-1'
+        >
+          Kayıt Ol
         </button>
         <button onClick={() => setMenuOpened(false)}>
           <svg
@@ -145,7 +153,7 @@ const Nav = ({ setCurrentSection }) => {
             }
             className='bg-[#0075FF] hidden md:block hover:opacity-80 rounded-full px-4 py-1'
           >
-            Kayıt OL
+            Kayıt Ol
           </button>
           <button className='md:hidden' onClick={() => setMenuOpened(true)}>
             <svg

@@ -4,17 +4,16 @@ import logo from '../assets/skylab_logo.png';
 const Footer = () => {
   return (
     <footer>
-      <div className='bg-gradient-to-t h-20 from-black to-transparent'></div>
-      <div className='bg-black flex items-center justify-between px-20 py-10'>
+      <div className='bg-gradient-to-t h-12 md:h-20 from-black to-transparent'></div>
+      <div className='bg-black flex flex-col gap-8 sm:gap-0 sm:flex-row items-center justify-between px-4 sm:px-10 md:px-20 py-4 md:py-10'>
         <a href='https://yildizskylab.com'>
-          <img className='h-40' src={logo} alt='logo' />
+          <img className='h-16 sm:h-24 md:h-32 lg:h-40' src={logo} alt='logo' />
         </a>
-        <div className='flex items-center gap-6'>
+        <div className='flex items-center gap-4 md:gap-6'>
           <a href='https://www.instagram.com/ytuskylab/'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              width='94'
-              height='94'
+              className='h-12 sm:h-16 md:h-24'
               viewBox='0 0 94 94'
               fill='none'
             >
@@ -45,9 +44,8 @@ const Footer = () => {
           </a>
           <a href='https://www.linkedin.com/company/ytuskylab/'>
             <svg
+              className='h-12 sm:h-16 md:h-24'
               xmlns='http://www.w3.org/2000/svg'
-              width='94'
-              height='94'
               viewBox='0 0 94 94'
               fill='none'
             >
@@ -78,9 +76,8 @@ const Footer = () => {
           </a>
           <a href='https://twitter.com/SkyLabKulubu'>
             <svg
+              className='h-12 sm:h-16 md:h-24'
               xmlns='http://www.w3.org/2000/svg'
-              width='94'
-              height='94'
               viewBox='0 0 94 94'
               fill='none'
             >
@@ -103,9 +100,8 @@ const Footer = () => {
           </a>
           <a href='https://www.youtube.com/@SKYLABKulubu'>
             <svg
+              className='h-12 sm:h-16 md:h-24'
               xmlns='http://www.w3.org/2000/svg'
-              width='94'
-              height='94'
               viewBox='0 0 94 94'
               fill='none'
             >

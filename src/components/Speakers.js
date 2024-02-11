@@ -2,23 +2,16 @@ import React from 'react';
 
 const Speakers = () => {
   return (
-    <section id='2' className='h-[100dvh] pt-44 snap-start'>
-      <h1 className='text-center text-8xl font-semibold'>Konuşmacılar</h1>
-      <div className='grid grid-cols-3 gap-16 mt-24 px-40'>
-        {Array(6)
-          .fill('')
-          .map((_, i) => (
-            <div key={i} className='flex justify-center items-center'>
-              <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-44 aspect-square'>
-                <img
-                  src='https://img.a.transfermarkt.technology/portrait/big/6366-1696013891.png?lm=1'
-                  alt='speaker'
-                />
-              </div>
-            </div>
-          ))}
-        {/* <div className='flex justify-center items-center'>
-          <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-44 aspect-square'>
+    <section
+      id='2'
+      className='h-[100dvh] flex flex-col justify-center pt-28 sm:pt-36 lg:pt-44 snap-start'
+    >
+      <h1 className='text-center text-3xl sm:text-6xl lg:text-8xl font-semibold'>
+        Konuşmacılar
+      </h1>
+      <div className='grid grid-cols-2 sm:grid-cols-3 gap-6 lg:gap-16 mt-12 lg:mt-24 px-4 sm:px-24 lg:px-40'>
+        <div className='flex justify-center items-center'>
+          <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-32 md:h-44 aspect-square'>
             <img
               src='https://img.a.transfermarkt.technology/portrait/big/6366-1696013891.png?lm=1'
               alt='speaker'
@@ -26,7 +19,7 @@ const Speakers = () => {
           </div>
         </div>
         <div className='flex justify-center items-center'>
-          <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-44 aspect-square'>
+          <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-32 md:h-44 aspect-square'>
             <img
               src='https://img.a.transfermarkt.technology/portrait/big/6366-1696013891.png?lm=1'
               alt='speaker'
@@ -34,7 +27,7 @@ const Speakers = () => {
           </div>
         </div>
         <div className='flex justify-center items-center'>
-          <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-44 aspect-square'>
+          <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-32 md:h-44 aspect-square'>
             <img
               src='https://img.a.transfermarkt.technology/portrait/big/6366-1696013891.png?lm=1'
               alt='speaker'
@@ -42,7 +35,7 @@ const Speakers = () => {
           </div>
         </div>
         <div className='flex justify-center items-center'>
-          <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-44 aspect-square'>
+          <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-32 md:h-44 aspect-square'>
             <img
               src='https://img.a.transfermarkt.technology/portrait/big/6366-1696013891.png?lm=1'
               alt='speaker'
@@ -50,7 +43,7 @@ const Speakers = () => {
           </div>
         </div>
         <div className='flex justify-center items-center'>
-          <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-44 aspect-square'>
+          <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-32 md:h-44 aspect-square'>
             <img
               src='https://img.a.transfermarkt.technology/portrait/big/6366-1696013891.png?lm=1'
               alt='speaker'
@@ -58,13 +51,13 @@ const Speakers = () => {
           </div>
         </div>
         <div className='flex justify-center items-center'>
-          <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-44 aspect-square'>
+          <div className='overflow-hidden shadow-2xl shadow-[#2f2342] rounded-[50%] flex justify-center items-center h-32 md:h-44 aspect-square'>
             <img
               src='https://img.a.transfermarkt.technology/portrait/big/6366-1696013891.png?lm=1'
               alt='speaker'
             />
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
