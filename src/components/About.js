@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       id='1'
-      className='h-[100dvh] snap-start px-4 sm:px-10 md:px-24 lg:px-[10rem] pt-64'
+      className='h-[100dvh] snap-start px-4 sm:px-10 md:px-24 lg:px-[10rem] pt-32 sm:pt-64'
     >
       <div
         id='nav-gradient'
