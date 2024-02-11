@@ -3,7 +3,10 @@ import img1 from '../assets/image1.png';
 
 const Landing = () => {
   return (
-    <section className='snap-start pt-72 h-[100dvh] flex justify-between'>
+    <section
+      id='0'
+      className='snap-start pt-72 h-[100dvh] flex justify-between'
+    >
       <div>
         <div className='pl-[5.5rem]'>
           <h2 className='text-3xl tracking-wider'>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,13 +13,14 @@ body {
   overflow-x: hidden;
   background-color: rgb(7, 5, 12);
   color: white;
+  font-family: 'Urbanist', sans-serif;
 }
 
 #nav-gradient {
   background: rgb(12, 28, 53);
   background: linear-gradient(
-    119deg,
-    rgba(12, 28, 53, 0.47524947478991597) 0%,
+    160deg,
+    rgba(20, 41, 74, 0.675) 0%,
     rgba(11, 18, 55, 0.73043154761904767) 100%
   );
 }
