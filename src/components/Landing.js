@@ -15,7 +15,7 @@ const Landing = () => {
               5.SKYDAYS:
             </span>
             <br />
-            Türkiye’nin en büyük siber güvenlik etkinliği
+            Türkiye’nin En Büyük Siber Güvenlik Etkinliği
           </h2>
         </div>
 

@@ -11,19 +11,17 @@ const About = () => {
         className='outline-1 outline backdrop-blur-md outline-[#789eab] px-4 sm:px-10 lg:px-16 py-6 rounded-3xl items-center w-full'
       >
         <h2 className='text-3xl sm:text-6xl lg:text-[5.5rem] font-bold'>
-          Hakkımızda
+          SKYDAYS NEDİR?
         </h2>
         <p className='text-lg sm:text-2xl lg:text-3xl font-extralight'>
-          Bu yıl 5. kez düzenlenecek olan SKYDAYS, 22-23 Mart tarihlerinde
-          gerçekleşecek bir siber güvenlik etkinliğidir. Etkinlik 2 gün sürecek
-          olup seminer ve CTF’ten oluşacaktır
+          SKYLAB: Bilgisayar Bilimleri Kulübü tarafından bu yıl beşincisi
+          gerçekleştirilecek olan SKYDAYS, bir öğrenci kulübü tarafından
+          düzenlenen en büyük siber güvenlik etkinliğidir.
           <br />
           <br />
-          Etkinliğimizin ilk gününde katılımcılarımız; birbirinden değerli
-          isimlerin bu alandaki sunumlarını dinleyecek, fuaye alanlarıyla
-          network elde edecek ve çeşitli yarışmalar ile de hediyeler
-          kazanabilecek. Etkinliğin ikinci gününde ise CTF yarışması ile
-          sonlanacaktır.
+          Etkinlik, ilk gün katılımcıları sektörün önde gelen isimleri ve
+          şirketleriyle buluşturacak olan zirveyle başlayarak ikinci gün CTF
+          yarışması ile devam edecektir.
         </p>
       </div>
     </section>
