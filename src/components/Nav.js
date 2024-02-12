@@ -25,7 +25,7 @@ const Nav = ({ setCurrentSection }) => {
         id='nav-gradient'
         className={`${
           menuOpened ? null : '-translate-y-full'
-        } flex flex-col gap-6 border-b border-[#789eab] items-center justify-center w-screen h-[30rem] z-50 transition-transform duration-300 fixed`}
+        } flex flex-col gap-6 border-b border-[#789eab] font-semibold items-center justify-center w-screen h-[30rem] z-50 transition-transform duration-300 fixed`}
       >
         <button
           onClick={() => {
