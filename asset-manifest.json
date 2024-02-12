@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/skydays-2024/static/css/main.43bc5c9a.css",
-    "main.js": "/skydays-2024/static/js/main.fdadc7ea.js",
+    "main.js": "/skydays-2024/static/js/main.2ad56aab.js",
     "static/media/background.png": "/skydays-2024/static/media/background.2fa30064363e6d5ca429.png",
     "static/media/image1.png": "/skydays-2024/static/media/image1.d0c094cbdb91ad9d9911.png",
     "static/media/skylab_logo.png": "/skydays-2024/static/media/skylab_logo.0e4e344de18c35b45c52.png",
@@ -10,10 +10,10 @@
     "static/media/silver.png": "/skydays-2024/static/media/silver.192e83bd835d1467e638.png",
     "index.html": "/skydays-2024/index.html",
     "main.43bc5c9a.css.map": "/skydays-2024/static/css/main.43bc5c9a.css.map",
-    "main.fdadc7ea.js.map": "/skydays-2024/static/js/main.fdadc7ea.js.map"
+    "main.2ad56aab.js.map": "/skydays-2024/static/js/main.2ad56aab.js.map"
   },
   "entrypoints": [
     "static/css/main.43bc5c9a.css",
-    "static/js/main.fdadc7ea.js"
+    "static/js/main.2ad56aab.js"
   ]
 }
