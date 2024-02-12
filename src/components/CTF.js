@@ -27,10 +27,9 @@ const CTF = () => {
           Kayıt Ol
         </button>
         <p className='text-xl sm:text-3xl lg:text-4xl font-extralight mt-6 sm:mt-8'>
-          CTF sırasında küçük ödüllerin olacağı, bunların yanında ilk 3'e para
-          ödülü ve diğer katılımcılara ise hatıra ödüllerinin verileceği, toplam
-          6 kategori ve 18 sorudan oluşacak olan okulumuzda yapılmış ilk CTF
-          yarışması olacaktır.
+          Yıldız Teknik Üniversitesi'nde ilk defa bir öğrenci kulübü tarafından
+          gerçekleştirilecek olan CTF, aynı zamanda SKYDAYS tarihinde de ilk
+          olma özelliğini taşımaktadır.
         </p>
       </div>
 
@@ -42,7 +41,7 @@ const CTF = () => {
               <h2 className='text-2xl lg:text-4xl font-extralight'>
                 Birincilik Ödülü
               </h2>
-              <h1 className='text-6xl lg:text-8xl font-bold'>5.000$</h1>
+              <h1 className='text-6xl lg:text-8xl font-bold'>?????</h1>
             </div>
           </div>
           <div className='block sm:hidden'>
@@ -52,7 +51,7 @@ const CTF = () => {
                 <h2 className='text-2xl lg:text-4xl font-extralight'>
                   İkincilik Ödülü
                 </h2>
-                <h1 className='text-6xl lg:text-8xl font-bold'>5.000$</h1>
+                <h1 className='text-6xl lg:text-8xl font-bold'>?????</h1>
               </div>
             </div>
           </div>
@@ -63,7 +62,7 @@ const CTF = () => {
               <h2 className='text-2xl lg:text-4xl font-extralight'>
                 Üçüncülük Ödülü
               </h2>
-              <h1 className='text-6xl lg:text-8xl font-bold'>5.000$</h1>
+              <h1 className='text-6xl lg:text-8xl font-bold'>?????</h1>
             </div>
           </div>
         </div>
@@ -117,7 +116,7 @@ const CTF = () => {
               <h2 className='text-2xl lg:text-4xl font-extralight'>
                 İkincilik Ödülü
               </h2>
-              <h1 className='text-6xl lg:text-8xl font-bold'>5.000$</h1>
+              <h1 className='text-6xl lg:text-8xl font-bold'>?????</h1>
             </div>
           </div>
         </div>
