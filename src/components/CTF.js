@@ -13,9 +13,15 @@ const CTF = () => {
         <h2 className='text-2xl sm:text-4xl lg:text-6xl font-normal text-center'>
           CTF
         </h2>
-        <p className='text-xl sm:text-2xl lg:text-5xl font-extralight mt-20'>
-          22 Mart cuma günü saat 19.00'da başlayıp, 23 mart cumartesi günü saat
-          19.00'da bitecektir.
+        <h2 className='text-4xl lg:text-6xl mt-12 lg:mt-20'>CTF nedir?</h2>
+        <p className='text-xl sm:text-3xl lg:text-4xl font-extralight mt-4'>
+          CTF (Capture The Flag), bilgisayar güvenliği ve bilgi güvenliği
+          becerilerini geliştirmek için düzenlenen rekabetçi bir etkinliktir.
+          Katılımcılar, çeşitli bilgi güvenliği sorunlarını çözmek için yarışır
+          ve bayrak adı verilen gizli verileri (flag) ele geçirmeye çalışırlar.
+          Bu bayraklar genellikle bir sunucuda saklanır ve katılımcılar,
+          sunucudaki güvenlik açıklarını ve zayıflıkları kullanarak bayrakları
+          ele geçirmeye çalışırlar.
         </p>
         <button className='bg-[#0075FF] hover:opacity-80 rounded-full mt-6 sm:mt-8 text-2xl md:text-4xl font-semibold px-8 py-3'>
           Kayıt Ol
@@ -115,19 +121,6 @@ const CTF = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className='px-8 sm:px-24 md:px-[10rem]'>
-        <h2 className='text-4xl lg:text-6xl'>CTF nedir?</h2>
-        <p className='text-xl sm:text-3xl lg:text-4xl font-extralight mt-6 sm:mt-8'>
-          CTF (Capture The Flag), bilgisayar güvenliği ve bilgi güvenliği
-          becerilerini geliştirmek için düzenlenen rekabetçi bir etkinliktir.
-          Katılımcılar, çeşitli bilgi güvenliği sorunlarını çözmek için yarışır
-          ve bayrak adı verilen gizli verileri (flag) ele geçirmeye çalışırlar.
-          Bu bayraklar genellikle bir sunucuda saklanır ve katılımcılar,
-          sunucudaki güvenlik açıklarını ve zayıflıkları kullanarak bayrakları
-          ele geçirmeye çalışırlar.
-        </p>
       </div>
 
       <div className='flex justify-center'>
