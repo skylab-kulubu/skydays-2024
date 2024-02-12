@@ -41,7 +41,7 @@ function App() {
       <div
         style={{
           backgroundImage: `url('${background}')`,
-          height: totalLength + 100,
+          height: totalLength + 200,
         }}
         className='absolute -z-10 w-screen bg-cover'
       ></div>
