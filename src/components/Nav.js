@@ -116,7 +116,7 @@ const Nav = ({ setCurrentSection }) => {
       <div className='fixed w-screen z-40 font-semibold text-lg lg:text-2xl px-8 lg:px-[5.5rem] mt-6 md:mt-12'>
         <div
           id='nav-gradient'
-          className='flex justify-between outline-1 backdrop-blur-md outline outline-[#789eab] px-6 py-2 rounded-3xl items-center w-full'
+          className='flex justify-between shadow-xl outline-1 backdrop-blur-md outline outline-[#789eab] px-6 py-2 rounded-3xl items-center w-full'
         >
           <img
             onClick={() => setCurrentSection(0)}
