@@ -19,7 +19,7 @@ export const data = [
   {
     id: 3,
     question: 'Sadece zirveye veya sadece yarışmaya katılamaz mıyım?',
-    answer: 'Tabii ki sadece zirveye veya sadece yarışmaya katılabilirsin.',
+    answer: 'Elbette, ister ikisine birden istersen de yalnızca birine katıl. Karar senin!',
   },
   {
     id: 4,

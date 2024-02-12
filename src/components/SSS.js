@@ -19,6 +19,12 @@ const SSS = () => {
           setCurrentChoice={setCurrentChoice}
         />
       ))}
+
+      <h2 className='mt-20 text-xl sm:text-2xl text-center'>
+        Soracak başka sorularınız için{' '}
+        <span className='text-[#8498ff]'>skylab.ytu@gmail.com</span> mail
+        adresine ulaşabilirsiniz.
+      </h2>
     </section>
   );
 };
