@@ -25,7 +25,7 @@ const Nav = ({ setCurrentSection }) => {
         id='nav-gradient'
         className={`${
           menuOpened ? null : '-translate-y-full'
-        } bg-red-400 flex flex-col gap-6 border-b border-[#789eab] items-center justify-center w-screen h-[30rem] z-50 transition-transform duration-300 fixed`}
+        } flex flex-col gap-6 border-b border-[#789eab] items-center justify-center w-screen h-[30rem] z-50 transition-transform duration-300 fixed`}
       >
         <button
           onClick={() => {
@@ -71,6 +71,15 @@ const Nav = ({ setCurrentSection }) => {
           className='p-1 hover:opacity-80'
         >
           CTF
+        </button>
+        <button
+          onClick={() => {
+            setMenuOpened(false);
+            setCurrentSection(5);
+          }}
+          className='p-1 hover:opacity-80'
+        >
+          S.S.S
         </button>
         <button
           onClick={() =>
@@ -145,6 +154,12 @@ const Nav = ({ setCurrentSection }) => {
               className='p-1 hover:opacity-80'
             >
               CTF
+            </button>
+            <button
+              onClick={() => setCurrentSection(5)}
+              className='p-1 hover:opacity-80'
+            >
+              S.S.S
             </button>
           </div>
           <button

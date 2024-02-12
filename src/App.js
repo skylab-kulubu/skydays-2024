@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 import Sponsors from './components/Sponsors';
 import Footer from './components/Footer';
 import CTF from './components/CTF';
+import SSS from './components/SSS';
 
 function App() {
   const [sections, setSections] = useState([]);
@@ -51,6 +52,7 @@ function App() {
       <Speakers />
       <Sponsors />
       <CTF />
+      <SSS />
       <Footer />
     </div>
   );
