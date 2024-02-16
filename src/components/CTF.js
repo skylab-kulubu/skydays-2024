@@ -1,7 +1,7 @@
 import React from 'react';
-import gold from '../assets/gold.png';
-import silver from '../assets/silver.png';
-import bronze from '../assets/bronze.png';
+import gold from '../assets/gold.webp';
+import silver from '../assets/silver.webp';
+import bronze from '../assets/bronze.webp';
 
 const CTF = () => {
   return (

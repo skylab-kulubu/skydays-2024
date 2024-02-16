@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import logo from '../assets/skylab_logo.png';
+import logo from '../assets/skylab_logo.webp';
 
 const Nav = ({ setCurrentSection }) => {
   const [menuOpened, setMenuOpened] = React.useState(false);

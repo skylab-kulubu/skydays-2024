@@ -1,5 +1,5 @@
 import Landing from './components/Landing';
-import background from './assets/background.png';
+import background from './assets/background.webp';
 import About from './components/About';
 import Nav from './components/Nav';
 import Speakers from './components/Speakers';
