@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../assets/image1.png';
+import img1 from '../assets/image1.webp';
 
 const Landing = () => {
   return (
