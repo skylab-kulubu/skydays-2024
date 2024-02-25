@@ -23,7 +23,13 @@ const CTF = () => {
           sunucudaki güvenlik açıklarını ve zayıflıkları kullanarak bayrakları
           ele geçirmeye çalışırlar.
         </p>
-        <button className='bg-[#0075FF] hover:opacity-80 rounded-full mt-6 sm:mt-8 text-2xl md:text-4xl font-semibold px-8 py-3'>
+        <button
+          onClick={() =>
+            (window.location.href =
+              'https://forms.office.com/pages/responsepage.aspx?id=CClghVvhukORSDi8dzqBbiW71iuprpdGm4fb9lyf0dFUM0s4TzlPU0ROSUtGVlJHNDRZSDZPSjVMUy4u')
+          }
+          className='bg-[#0075FF] hover:opacity-80 rounded-full mt-6 sm:mt-8 text-2xl md:text-4xl font-semibold px-8 py-3'
+        >
           Kayıt Ol
         </button>
         <p className='text-xl sm:text-3xl lg:text-4xl font-extralight mt-6 sm:mt-8'>
@@ -123,7 +129,13 @@ const CTF = () => {
       </div>
 
       <div className='flex justify-center'>
-        <button className='bg-[#0075FF] hover:opacity-80 rounded-full mt-4 lg:mt-10 text-2xl lg:text-4xl font-semibold px-8 py-3'>
+        <button
+          onClick={() =>
+            (window.location.href =
+              'https://forms.office.com/pages/responsepage.aspx?id=CClghVvhukORSDi8dzqBbiW71iuprpdGm4fb9lyf0dFUM0s4TzlPU0ROSUtGVlJHNDRZSDZPSjVMUy4u')
+          }
+          className='bg-[#0075FF] hover:opacity-80 rounded-full mt-4 lg:mt-10 text-2xl lg:text-4xl font-semibold px-8 py-3'
+        >
           Kayıt Ol
         </button>
       </div>

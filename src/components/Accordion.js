@@ -62,7 +62,12 @@ const Accordion = ({ item, currentChoice, setCurrentChoice }) => {
               Zirve formu
             </a>
             <br />
-            Yarışma formu: Çok yakında!
+            <a
+              className='underline'
+              href='https://forms.office.com/pages/responsepage.aspx?id=CClghVvhukORSDi8dzqBbiW71iuprpdGm4fb9lyf0dFUM0s4TzlPU0ROSUtGVlJHNDRZSDZPSjVMUy4u'
+            >
+              Yarışma formu
+            </a>
           </p>
         </div>
       </div>
